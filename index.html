@@ -19,6 +19,20 @@
 		background-size:150px;
 		background-repeat:repeat;
 		}
+		@media screen and (min-width: 769px) {
+			#result { min-height:calc(100% - 30px); }
+		}
+
+		@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    			#result { min-height:calc(100% - 30px); }
+		}
+
+		@media only screen and (max-device-width: 480px) {
+			#result { min-height:200px; }
+		}
+		#result {
+		margin-top:30px;border-radius:6px;width:100%;min-height:calc(100% - 30px);background-color:#e9ecef;border:1px solid #ced4da;padding:0.6em;resize:none;font-size:small;color:#646464;
+		}
 	</style>
 	</head>
   <body>
@@ -64,7 +78,7 @@
 				   </div>
 			  </form>
 		   </div>
-          <div class="col-12 col-md-6"><div style="margin-top:30px;border-radius:6px;width:100%;min-height:calc(100% - 30px);background-color:#e9ecef;border:1px solid #ced4da;padding:0.6em;resize:none;font-size:small;color:#646464;" id="result"></div></div>
+          <div class="col-12 col-md-6"><div id="result"></div></div>
        </div>
 	   <div style="margin-top:120px;background-color:#fff;margin-bottom:30px;border-radius:10px;padding-top:20px;padding-bottom:10px;">
        <div class="row">
