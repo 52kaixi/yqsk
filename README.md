@@ -10,7 +10,9 @@
 
 
 
-项目地址： <https://52kaixi.github.io/yqsk/>
+项目地址： <https://github.com/52kaixi/yqsk/>
+
+在线体验： <https://52kaixi.github.io/yqsk/>
 
 品葱页面： <>
 
